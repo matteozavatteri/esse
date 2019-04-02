@@ -3,7 +3,7 @@
     Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik, 2017.
 
 Bibtex:
-@InProceedings{Zavatteri17,
+@InProceedings{CstnudTIME2017,
   author    = {Matteo Zavatteri},
   title     = {Conditional Simple Temporal Networks with Uncertainty and Decisions},
   booktitle = {24th International Symposium on Temporal Representation and Reasoning (TIME 2017)},
@@ -19,7 +19,7 @@ Bibtex:
     Theoretical Computer Science, 2018.
 
 Bibtex:
-@ARTICLE{Zavatteri2018TCS,
+@ARTICLE{CstnudTCS2018,
   author={Zavatteri, Matteo and Vigan\`o, Luca},
   title={Conditional simple temporal networks with uncertainty and decisions},
   journal={Theoretical Computer Science (article in press)},
