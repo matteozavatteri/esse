@@ -1,0 +1,50 @@
+# Cstnud_17/Z0400.cstnud
+# 13 time points
+# 1 observation
+# 2 decision
+# 1 contingent links
+# 13 labeled constraints
+
+Propositions {
+	d1 p1 d2
+}
+
+TimePoints {
+	(P1? : p1 : )
+	(D1! : d1 : !d2)
+	(D2! : d2 : )
+	(A1 : )
+	(C1 : )
+	(X1 : )
+	(X2 : p1)
+	(X3 : !p1)
+	(X4 : )
+	(X5 : !p1)
+	(X6 : )
+	(X7 : p1)
+	(X8 : !p1)
+}
+
+ContingentLinks {
+	(A1,4,14,C1)
+}
+
+Constraints {
+	(X1 - C1 <= 27 : d1 !p1 !d2)
+	(A1 - P1 <= -74 : )
+	(X1 - X8 <= 92 : !d1 !p1 !d2)
+	(X5 - X1 <= 87 : !p1)
+	(D1 - X5 <= -59 : !d1 !p1 !d2)
+	(X6 - X4 <= -27 : )
+	(P1 - D1 <= 99 : d1 p1 !d2)
+	(P1 - X8 <= 43 : !p1)
+	(D1 - C1 <= 41 : !d1 !p1 !d2)
+	(C1 - X8 <= -17 : !p1)
+	(D2 - D1 <= -35 : !d2)
+	(X6 - X8 <= 33 : !p1)
+	(D2 - P1 <= -41 : d1 p1 !d2)
+}
+
+# Matteo Zavatteri
+# University of Verona, Italy
+# matteo.zavatteri@univr.it

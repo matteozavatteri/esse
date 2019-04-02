@@ -1,0 +1,28 @@
+[1] Matteo Zavatteri. Conditional simple temporal networks with uncertainty and decisions. In 24th International Symposium on Temporal Representation and Reasoning (TIME 2017), volume 90, pages 23:1–23:17. Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik, 2017.
+
+Bibtex:
+@InProceedings{Zavatteri17,
+  author    = {Matteo Zavatteri},
+  title     = {Conditional Simple Temporal Networks with Uncertainty and Decisions},
+  booktitle = {24th International Symposium on Temporal Representation and Reasoning (TIME 2017)},
+  pages     = {23:1--23:17},
+  year      = {2017},
+  doi       = {10.4230/LIPIcs.TIME.2017.23},
+  volume    = {90},
+  publisher = {Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik},
+}
+
+
+[2] Matteo Zavatteri and Luca Viganò. Conditional simple temporal networks with uncertainty and decisions. Theoretical Computer Science, 2018.
+
+Bibtex:
+@ARTICLE{Zavatteri2018TCS,
+  author={Zavatteri, Matteo and Vigan\`o, Luca},
+  title={Conditional simple temporal networks with uncertainty and decisions},
+  journal={Theoretical Computer Science (article in press)},
+  year={2018},
+  doi={10.1016/j.tcs.2018.09.023},
+}
+
+
+

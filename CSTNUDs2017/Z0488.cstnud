@@ -1,0 +1,63 @@
+# Cstnud_17/Z0488.cstnud
+# 17 time points
+# 1 observation
+# 3 decision
+# 3 contingent links
+# 20 labeled constraints
+
+Propositions {
+	d1 p1 d2 d3
+}
+
+TimePoints {
+	(P1? : p1 : )
+	(D1! : d1 : !p1)
+	(D2! : d2 : !p1)
+	(D3! : d3 : !p1)
+	(A1 : !p1)
+	(C1 : !p1)
+	(A2 : !p1)
+	(C2 : !p1)
+	(A3 : !p1)
+	(C3 : !p1)
+	(X1 : p1)
+	(X2 : !p1)
+	(X3 : )
+	(X4 : )
+	(X5 : !p1)
+	(X6 : )
+	(X7 : )
+}
+
+ContingentLinks {
+	(A1,2,8,C1)
+	(A2,6,12,C2)
+	(A3,7,8,C3)
+}
+
+Constraints {
+	(D1 - X7 <= 81 : !p1)
+	(C2 - X7 <= -15 : d2 !d3 !p1 d1)
+	(X7 - A3 <= 18 : !p1)
+	(X3 - X1 <= -60 : p1)
+	(X4 - A2 <= 47 : !p1)
+	(X7 - C1 <= -70 : d2 !p1 d1 d3)
+	(D1 - C2 <= -56 : !p1)
+	(C2 - D3 <= 3 : !p1)
+	(D1 - D3 <= -53 : d2 !d3 !p1 d1)
+	(X5 - X3 <= -17 : !p1)
+	(A2 - X4 <= -21 : !p1)
+	(X1 - X6 <= -10 : p1)
+	(C3 - X3 <= -96 : d2 !p1 d1 d3)
+	(C1 - A3 <= -24 : !p1)
+	(X6 - D2 <= -29 : d2 !d3 !p1 d1)
+	(X3 - A2 <= 41 : d1 !p1 !d2 d3)
+	(A1 - X6 <= 19 : !p1)
+	(D1 - D3 <= -9 : !d1 !d3 !p1 !d2)
+	(D3 - X3 <= -46 : d2 !d3 !p1 d1)
+	(C1 - C2 <= -99 : d2 !d3 !p1 d1)
+}
+
+# Matteo Zavatteri
+# University of Verona, Italy
+# matteo.zavatteri@univr.it
